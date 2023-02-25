@@ -6,7 +6,6 @@ let timerInterval = null;
       const seconds = parseInt(document.getElementById('seconds').value);
       console.log(hours, minutes, seconds);
       
-      
       let totalSeconds = hours * 3600 + minutes * 60 + seconds;
         console.log(totalSeconds);
       
