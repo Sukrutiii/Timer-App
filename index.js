@@ -7,8 +7,7 @@ let timerInterval = null;
       console.log(hours, minutes, seconds);
       
       let totalSeconds = hours * 3600 + minutes * 60 + seconds;
-        console.log(totalSeconds);
-      
+        console.log(totalSeconds);    
       
       if (totalSeconds <= 0) {
         alert('Please enter a valid time');
