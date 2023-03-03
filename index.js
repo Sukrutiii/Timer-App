@@ -1,4 +1,3 @@
-
 let timerInterval = null;
 
     function startTimer() {
