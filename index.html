@@ -1,12 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>Timer App</title>
 </head>
 <body>
-    
+  <h1>Timer App</h1>
+  <div>
+    <label for="hours">Hours:</label>
+    <input type="number" id="hours" min="0">
+  </div>
+  <div>
+    <label for="minutes">Minutes:</label>
+    <input type="number" id="minutes" min="0" max="59">
+  </div>
+  <div>
+    <label for="seconds">Seconds:</label>
+    <input type="number" id="seconds" min="0" max="59">
+  </div>
+  <button id="start-button">Start</button>
+  <button id="stop-button">Stop</button>
+  <div id="timer"></div>
+  <audio id="audio" src="sound.mp3"></audio>
+
+  <script src="index.js"></script>
 </body>
 </html>
